@@ -34,7 +34,7 @@ public:
 
 		if (!isEmpty())
 		{
-			data = linkedListStack.remove(top);
+			data = linkedListStack.remove(0);
 			top--;
 		}
 		else
@@ -50,7 +50,7 @@ public:
 
 		if (!isEmpty())
 		{
-			data = linkedListStack.remove(top);
+			data = linkedListStack.remove(0);
 
 			linkedListStack.add(data);
 		}
